@@ -1,0 +1,52 @@
+header nav{
+	background: #808080;
+	height: auto;
+	justify-content: center;
+}
+header nav .nav-link{
+	color: white;
+}
+header nav .navbar-toggler-icon{
+	background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+header nav .nav-item{
+	background: #707070;
+}
+header nav .nav-item:hover{
+	background: #808080;
+}
+
+footer.container-fluid{
+	background: #808080;
+	font-family: Garamond;
+}
+/*Banner*/
+.banner{
+	background-image: url("../Images/Banner.png");
+	background-position: center;
+	background-size: cover;
+	height: 416px;
+	color: white;
+}
+.banner p{
+	background: rgba(112, 112, 112, 0.5)
+}
+
+footer h2{
+	color: white;
+}
+
+#top{
+	float: right;
+	margin: 30px;
+}
+.imgfooter{
+	background-image: url("../Images/pumpkin.png");
+	background-position: center;
+	background-size: cover;
+	height: 416px;
+	color: white;
+}
+.imgfooter p{
+	background: rgba(112, 112, 112, 0.5)
+}

@@ -1,0 +1,65 @@
+body{
+	background-color: black;
+}
+#textoJack{
+	background-color: #5F9EA0;
+	color: white;
+}
+/*Moovies Sections*/
+#BoxMoovies{
+	background: #708090;
+	font-family: Garamond;
+	color: white;
+}
+#btnMoovies{
+	background:url("../Images/AroMoovies.png");
+	background-position: center;
+	background-size: cover;
+}
+#btnMoovies p{
+	background: rgba(128, 128, 128, 0.6);
+	color: white;
+}
+#btnMoovies:hover{
+	opacity: 0.5;
+}
+/*Books Section*/
+#boxBooks{
+	background: url("../Images/Bookstore.png");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	font-family: Garamond;
+}
+#boxBooks h2:first-child{
+	background: rgba(128, 128, 128, 0.6);
+}
+.Necronomicon {
+  position: relative;
+  width: 75%;
+  margin: 33px auto 20px auto;
+}
+
+.fraseRead {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+}
+.Necronomicon img { 
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+/*Characters Section*/
+#titleFavChar{
+	font-family: Garamond;
+	color: white;
+}
+#boxbtnChar{
+	background: url("../Images/ScreamChar.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 550px;
+}

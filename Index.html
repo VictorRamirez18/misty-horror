@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title id="pagina">Inicio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Victor Ramirez">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/Index.css">
+    <link rel="stylesheet" href="CSS/PrincipalComponents.css">
+    <link  rel="icon" href="Images/Logo1.png" type="image/png">
+  </head>
+  <body>
+    <!-- header -->
+    <header id="Start">
+      <nav class="navbar navbar-expand-md ">
+        <div class="container-fluid">
+          <a href="Index.html" class="navbar-brand">
+            <img src="Images/Logo1.png" width="150" loading="lazy" alt="LogoMistyHorror">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item p-1"><a href="Moovies.html" class="nav-link" id="navMoovies">Moovies</a></li>
+              <li class="nav-item p-1"><a href="Books.html" class="nav-link" id="navBooks">Books</a></li>
+              <li class="nav-item p-1"><a href="Videogames.html" class="nav-link" id="navGames">Videogames</a></li>
+              <li class="nav-item p-1"><a href="Characters.html" class="nav-link" id="navCharacters">Characters</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Banner -->
+    <div class="container-fluid p-0 banner d-flex justify-content-center align-items-center">
+      <p class="h2 p-2 fs-1">Lorem Ipsum dolor sit amet</p>
+    </div>
+    <!-- jack-o'-lantern & text -->
+    <div class="container-fluid my-4">
+      <div class="row">
+        <div class="col-md-3 p-4">
+          <img src="Images/Jack.png" class="img-fluid" loading="lazy" alt="Jack-o'lantern">
+        </div>
+        <div class="col-md-9 p-0 d-flex justify-content-center align-items-center">
+          <p class="rounded-3 col-md-8 fs-2 text-center p-5" id="textoJack">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+      </div>
+    </div>
+    <!-- Moovies Section -->
+    <div class="container mx-auto col-md-8" id="">
+      <div class="row col-md rounded-3" id="BoxMoovies">
+        <div class="col-md-6 d-flex align-items-center justify-content-center p-4" id="">
+          <div class="col-md-7">
+            <img src="Images/JasonNew.png" class="img-fluid" loading="lazy"
+            alt="JasonImage">
+          </div>
+        </div>
+        <div class="col-md-6 p-4 text-center d-flex flex-column justify-content-between align-items-center" id="">
+          <h2 style="color:#40E0D0" class="h1 fw-bold">Consulta nuestras películas</h2>
+          <p class="fs-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button class="col-12 d-flex justify-content-center" id="btnMoovies" onclick="window.location.href='Moovies.html'"><p class="fs-3 fw-bold col-md-10 mt-2">Películas</p></button>
+        </div>
+      </div>
+    </div>
+    <!-- MistyHorroImage -->
+    <div class="container-fluid mx-auto my-4 d-flex justify-content-center">
+      <img src="Images/Logo2.png" class="img-fluid" loading="lazy"
+      alt="LogoMistyHorror">
+    </div>
+    <!-- Books´s Section -->
+    <div id="boxBooks" class="container-fluid d-flex flex-column justify-content-center align-items-center py-3">
+      <h2 class="my-5 p-4 fs-1 text-center fw-bold">Find stories that will give you goosebumps</h2>
+      <div>
+        <div class="Necronomicon">
+          <a href="Books.html"><img src="Images/Necronomicon.png" loading="lazy"
+          alt="BooksBackground"></a>
+          <a href="Books.html"><div class="fraseRead text-center fs-1" style="color: white">Read</div></a>
+        </div>
+      </div>
+    </div>
+    <!-- Characters Section Title -->
+    <div class="container-fluid" id="titleFavChar">
+      <h1 class="text-center fs-1 mx-auto my-5 fw-bold">Find your favorite character</h1>
+    </div>
+    <!-- Characters Section -->
+    <div class="container-fluid d-flex flex-column justify-content-center align-items-center mx-auto col-md-4" id="boxbtnChar" height="300">
+      <button class="btn btn-primary col-8 fs-2 text-center" onclick="window.location.href='Characters.html'">Go</button>
+    </div>
+    <!-- footer -->
+    <footer class="container-fluid mt-5">
+      <div class="row d-flex p-md-5" id="">
+        <div class="col-md-8 d-flex flex-column align-items-center justify-content-between text-center fs-1" id="">
+          <h2 class="fs-1">Subscribe</h2>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Type your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-primary" type="button" id="button-addon2">Accept</button>
+          </div>
+          <div class="col-md-3">
+            <a href="https://es-la.facebook.com"><img src="Images/faceicon.png" class="col-3" loading="lazy"
+            alt="FacebookLogo"></a>
+            <a href="https://twitter.com/?lang=es"><img src="Images/twittericon.png" class="col-3" loading="lazy"
+            alt="TwitterLogo"></a>
+            <a href="https://www.instagram.com"><img src="Images/instagramicon.png" class="col-3" loading="lazy"
+            alt="InstagramLogo"></a>
+          </div>
+        </div>
+        <div class="col-md-4 p-0 d-flex justify-content-center mt-2 imgfooter align-items-center" id="">
+          <a href="#Start" title="Go to the top of the page!"><img src="Images/Logo2.png" class="img-fluid" loading="lazy" alt="PumpkinImage"></a>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center fs-5" id="">
+        <p class="text-center">©MystyHorror</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
+</html>
